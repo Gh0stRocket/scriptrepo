@@ -13,7 +13,7 @@ interface=wlan0
 driver=nl80211
 
 # Netzwerk Name
-ssid=UPC0476615
+ssid=SSID
 
 # 2.4GHz verwenden
 hw_mode=g
@@ -43,7 +43,7 @@ wpa=2
 wpa_key_mgmt=WPA-PSK
 
 # Das Netzwerk Passwort
-wpa_passphrase=2GehmkHkrpps
+wpa_passphrase=PASSWORD
 
 # AES verwenden
 rsn_pairwise=CCMP
