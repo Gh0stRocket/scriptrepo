@@ -1,11 +1,15 @@
 sudo apt install dnsmasq hostapd
-sudo nano/etc/default/hostapd
+sudo nano /etc/default/hostapd
 ###
 DAEMON_CONF="/etc/hostapd/hostapd.conf"
 ###
 
 nano /etc/hostapd/hostapd.conf
 ###
+# hostapd_cli commander
+ctrl_interface=/var/run/hostapd
+ctrl_interface_group=0
+
 # Wlan Interface
 interface=wlan0
 
